@@ -1,3 +1,4 @@
+/*utils*/
 :root {
   --prymary-text-color: #757575;
   --font-family: Roboto;
@@ -15,6 +16,7 @@
   overflow: hidden;
 }
 
+/*base*/
 a {
   text-decoration: none;
 }
@@ -58,6 +60,7 @@ image {
   margin: 0 auto;
 }
 
+/*components*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -421,6 +424,7 @@ image {
   padding-top: 6px;
 }
 
+/*layout*/
 .header {
   border-bottom: 1px solid #ECECEC;
 }

@@ -1,14 +1,14 @@
-//utils
+/*utils*/
 @import "./utils/variables";
 @import "./utils/visually-hidden";
-//base
+/*base*/
 @import "./base/common";
 @import "./base/container";
-//components
+/*components*/
 @import "./components/madal-btn";
 @import "./components/portfolio-list-btn";
 @import "./components/subscribe";
-//layout
+/*layout*/
 @import "./layout/header";
 @import "./layout/background-btn";
 @import "./layout/features";
