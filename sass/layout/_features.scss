@@ -5,43 +5,49 @@ padding-bottom: 94px;
 
 .features{
 display: flex;
-}
 
-.antenna{
-width: 270px;
-height: 120px;
-padding: 25px 102px;
-background: #F5F4FA;
-border-radius: 4px;
-margin-bottom: 30px;
-}
+    .item {
+    width: 270px;
+    }
+    .item:not(:last-child) {
+    margin-right: 30px;
+    }
 
-.clock{
-width: 270px;
-height: 120px;
-padding: 25px 102px;
-background: #F5F4FA;
-border-radius: 4px;
-margin-bottom: 30px;
+    &__antenna{
+    width: 270px;
+    height: 120px;
+    padding: 25px 102px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    }
 
-}
+    &__clock{
+    width: 270px;
+    height: 120px;
+    padding: 25px 102px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    }
 
-.diagram{
-width: 270px;
-height: 120px;
-padding: 25px 102px;
-background: #F5F4FA;
-border-radius: 4px;
-margin-bottom: 30px;
-}
+    &__diagram{
+    width: 270px;
+    height: 120px;
+    padding: 25px 102px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    }
 
-.astronaut{
-width: 270px;
-height: 120px;
-padding: 25px 102px;
-background: #F5F4FA;
-border-radius: 4px;
-margin-bottom: 30px;
+    &__astronaut{
+    width: 270px;
+    height: 120px;
+    padding: 25px 102px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    }
 }
 
 .features-title{
@@ -55,10 +61,6 @@ color: #212121;
 }
 
 
-.features .item {
-width: 270px;
-}
-
 .features-text{
 font-weight: normal;
 font-size: 14px;
@@ -67,13 +69,12 @@ letter-spacing: 0.03em;
 color: var(--prymary-text-color);
 }
 
-.features .item:not(:last-child) {
-margin-right: 30px;
-}
-
 .images{
 padding-bottom: 94px;
 
+    .item:not(:last-child){
+    margin-right: 30px;
+    }
 }
 
 .title-2{
@@ -88,37 +89,26 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 
-
-.images .item:not(:last-child){
-margin-right: 30px;
-}
-
-/* .images .item{
-position: relative;
-} */
-
 .images-image{
-
 position: relative;
 
-}
-
-.images-image>.images-overlay{
-position: absolute;
-display: flex;
-justify-content: center;
-align-items: center;
-font-family: var(--font-family);
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-bottom: 0;
-left: 0;
-width: 100%;
-height: 70px;
-background: rgba(47, 48, 58, 0.8);
+    >.images-overlay{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    }
 }
